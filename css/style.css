@@ -1,0 +1,124 @@
+body{
+    
+    text-align: center;
+    margin: 0px;
+
+    /* works only when elements are inline or doesnot have any width set!*/
+
+}
+.top-container{
+    background-color: #dae1e7;
+    padding-top: 30px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 4.75rem;
+    margin: 30px auto 0px auto;
+    color: #00909e;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: #00909e;
+    font-weight: normal;
+
+    
+}
+h3{
+    color: #11999E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial;
+    font-size: 1.25rem;
+
+}
+hr{
+    border: dotted #888888 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto;
+}
+.mountain-img{
+    max-width: 100%;
+}
+/*h1{
+    width: 10%;
+    Here text-align doesnot work, so, we need to use margin property
+    margin: 0 auto;
+}*/
+
+.profile{
+    width: 50%;
+    margin: 50px auto;
+}
+
+.my-img{
+    border-radius: 50%;
+}
+
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+}
+.math-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.skills-row{
+    width: 50%;
+    margin: 70px auto 50px auto;
+    text-align: left;
+    line-height: 1.25;
+}
+
+.contact-message{
+    width: 50%;
+    margin: 40px auto 60px auto;
+}
+.myButton {
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#11cdd4;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+	background-color:#11999e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.middle-container{
+    margin-bottom: 100px;
+}
+.bottom-container{
+    background-color: #11999E;
+    padding:30px 0px 20px;
+}
+a{
+    text-decoration: none;
+    margin: 20px 10px;
+    color: #000000;
+}
+.copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 0.95rem;
+    margin-top: 25px;
+}
